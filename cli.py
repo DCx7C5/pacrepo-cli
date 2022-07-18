@@ -8,7 +8,7 @@ class Config:
         self.write=False
 
     def __enter__(self):
-        self.config=configparser.ConfigParser(allow_no_value=True,default_section='options')
+        self.config=configparser.ConfigParser(allow_no_value=True,default_section='options',strict=False)
         self.config.optionxform=str
         self.config.read(self.file)
         return self
