@@ -2,3 +2,6 @@ venv
 *.egg-info
 build
 dist
+pkg
+src
+*.pkg.tar.zst

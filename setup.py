@@ -1,13 +1,11 @@
 from setuptools import setup, find_packages
 
-__version__ = "0.1.0"
-
 with open("README.md","r",encoding="utf-8") as fh:
     long_description=fh.read()
 
 setup(
     name='pacrepo-cli',
-    version=__version__,
+    version="1.1.0",
     author='James C Kimble',
     author_email='me@jckimble.com',
     license='ISC',
