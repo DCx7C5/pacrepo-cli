@@ -1,10 +1,10 @@
-# Maintainer: James C Kimble <me@jckimble.com>
+# Maintainer: DCx7C5
 pkgname=pacrepo-cli
 pkgver=1.1.0.r0.g5b38d04
 pkgrel=1
 pkgdesc="Quick Tool for managing user repos in pacman.conf"
 arch=('any')
-url="https://github.com/jckimble/pacrepo-cli"
+url="https://github.com/dcx7c5/pacrepo-cli"
 license=('ISC')
 depends=(
   'python'
